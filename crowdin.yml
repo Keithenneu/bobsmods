@@ -7,6 +7,8 @@
 "files": [
   {
     "source": "**/locale/en/*.cfg",
-    "translation": "**/locale/%two_letters_code%/%original_file_name%"
+    "translation": "**/locale/%two_letters_code%/%original_file_name%",
+    "type": "ini",
+    "dest": "**/locale/en/%file_name%.ini"
   }
 ]
